@@ -1,0 +1,13 @@
+
+Logic:
+1-Each letter in the alphabet has a corresponding character in the key, spaces are represented by #
+abcdefghijklmnopqrstuvwxyz! = alphabet
+9876543210zyxwvutsrqponmlkj = key
+2-The converted string is split in half and the second half is put in from of the first. If its odd numbered the first half gets the extra character
+3-Then the converted string is reversed
+
+Encode: 
+  "I love cryptography!"
+1: 1#yvo5#7sluqv3s9u2lj
+2: 1#yvo5#7sl + uqv3s9u2lj => uqv3s9u2lj1#yvo5#7sl
+3: ls7#5ovy#1jl2u9s3vqu
